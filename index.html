@@ -1,39 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Разминка</title>
+    <title>ADRASTEIA</title>
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header>
-        <h1>Веб технологии</h1>
+        <div class="container">
+            <nav>
+                <a class="header__logo" href="#"><img src="./img/logo.png" alt=""></a>
+                <div class="header__gamburger"><img src="./img/gamburger.png" alt=""></div>
+            </nav>
+        </div>
     </header>
 
-    <nav>
-        <ul>
-            <li>
-                <p><a href="">Ссылка</a></p>
-            </li>
-            <li>
-                <p><a href="">Ссылка</a></p>
-            </li>
-            <li>
-                <p><a href="">Ссылка</a></p>
-            </li>
-        </ul>
 
-    </nav>
+
     <main>
-        <h2>Сайт на Netlify</h2>
-        <img src="./questions__image.png" alt="questions_image">
+        <section class="banner">
+            <div class="container">
+                <div class="banner__title">
+                    <h1>
+                        Детективно-информационное <span>агентство</span>
+                    </h1>
+                </div>
+                <div class="banner__subtitle">
+                    <p>Владеешь информацией - <br> владеешь миром</p>
+                </div>
+                <div class="banner__img">
+                    <img src="./img/banner.png" alt="">
+                </div>
+                <button class="btn_light btn">
+                    <div class="btn__left">Оформить заявку</div>
+                    <div class="btn__right">+</div>
+                </button>
+            </div>
+        </section>
+
+        <section class="offers">
+            <div class="offers__wrapper">
+                <div class="container">
+                    <div class="offers__title">Услуги</div>
+                    <div class="offers__subtitle">Когда другие бессильны - мы делаем</div>
+                    <div class="offers__types-block">
+                        <ul class="offers__types">
+                            <li><button>Работа с информацией</button></li>
+                            <li><button>Розыск</button></li>
+                            <li><button>Слежка</button></li>
+                            <li><button>Уведомления</button></li>
+                            <li><button>Детектив</button></li>
+                        </ul>
+                    </div>
+                    <ul class="offers__carts">
+                        <li class="offers__cart">
+                            <div class="offers__cart-img"><img src="./img/cart__image.png" alt=""></div>
+                            <div class="offers__cart-title"> Работа <br> с информацией</div>
+                            <ul class="offers__cart-description">
+                                <li>Поиск и проверка информации</li>
+                                <li>Составление персонального досье</li>
+                                <li>Работа с репутацией <br>(защита персональных данных)</li>
+                                <li>Информация по номеру телефона</li>
+                            </ul>
+                            <button class="btn_dark btn">
+                                <div class="btn__left">Оформить заявку</div>
+                                <div class="btn__right">+</div>
+                            </button>
+
+                        </li>
+                        <li class="offers__cart"></li>
+                        <li class="offers__cart"></li>
+                        <li class="offers__cart"></li>
+                        <li class="offers__cart"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="how">
+            <div class="container">
+                <div class="how__title offers__title">Как мы работаем</div>
+                <div class="how__items">
+                    <ul>
+                        <li class="how__item">
+                            <div class="how__item-content">
+                                <div class="how__item-image"><img src="./img/how/1.png" alt=""></div>
+                                <div class="how__item-text">Разбираемся в ситуации</div>
+                            </div>
+                            <div class="how__item-index">01</div>
+                        </li>
+                        <li class="how__item">
+                            <div class="how__item-content">
+                                <div class="how__item-image"><img src="./img/how/2.png" alt=""></div>
+                                <div class="how__item-text">Составяем <br>план действий</div>
+                            </div>
+                            <div class="how__item-index">02</div>
+                        </li>
+                        <li class="how__item">
+                            <div class="how__item-content">
+                                <div class="how__item-image"><img src="./img/how/3.png" alt=""></div>
+                                <div class="how__item-text">Предоставляем результат</div>
+                            </div>
+                            <div class="how__item-index">03</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="clients">
+            <div class="clients__wrapper">
+                <div class="container">
+
+                    <div class="clients__title offers__title">Наши клиенты</div>
+                    <div class="clients__subtitle offers__subtitle">Строго соблюдаем конфиденциальность и дорожим
+                        репутацией каждого клиента</div>
+                    <div class="clients__items">
+                        <ul>
+                            <li>
+                                <a href="#" class="client__item">
+                                    <div class="client__item-img"><img src="./img/icons/megafon.png" alt=""></div>
+                                    <div class="client__item-text">Политики</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="client__item">
+                                    <div class="client__item-img"><img src="./img/icons/case.png" alt=""></div>
+                                    <div class="client__item-text">Бизнес</div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="client__item">
+                                    <div class="client__item-img"><img src="./img/icons/star.png" alt=""></div>
+                                    <div class="client__item-text">Селебрити</div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="client__item">
+                                    <div class="client__item-img"><img src="./img/icons/person.png" alt=""></div>
+                                    <div class="client__item-text">Частные лица</div>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
     </main>
+
+
+
     <footer>
-        <h2>
-            Тестим тег футер
-        </h2>
+
     </footer>
 </body>
 
