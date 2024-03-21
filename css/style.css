@@ -13,6 +13,8 @@
     position: absolute;
 }
 
+
+
 .opaloader {
     visibility: hidden;
     animation: fadeIn 0.5s ease-out 3s forwards;
@@ -709,6 +711,8 @@ form input {
     border: none;
     border-radius: 12px;
     background-color: rgba(33, 56, 135, 0.06);
+    text-decoration: none;
+    color: #142251;
 }
 
 .btn_send a {
