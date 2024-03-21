@@ -1,0 +1,155 @@
+
+@media screen and (max-width: 1500px) {
+
+    h1 {
+        max-width: 787px;
+        font-size: 80px;
+    }
+
+    #pt1 {
+        margin-left: -350px;
+    }
+    
+    #pt2 {
+        position: absolute;
+        left: -100px;
+        top: 50px;
+        z-index: 2;
+    }
+    
+}
+
+@media screen and (max-width: 1220px) {
+
+    .main_wrapper {
+        padding: 0;
+    }
+
+    h1 {
+        max-width: 787px;
+        font-size: 80px;
+        letter-spacing: -4px;
+    }
+
+    #pt1 {
+        margin-top: -50px;
+        margin-left: -800px;
+        z-index: -10;
+    }
+    
+    #pt2 {
+        top: 100px;
+        left: -550px;
+        z-index: -10;
+    }
+    
+}
+
+@media screen and (max-width: 715px) {
+
+    h1 {
+        max-width: 587px;
+        font-size: 60px;
+        letter-spacing: -4px;
+    }
+    
+}
+
+@media screen and (max-width: 625px) {
+
+    h1 {
+        max-width: 587px;
+        font-size: 60px;
+        letter-spacing: -4px;
+    }
+    
+    #open_chat {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+
+    #sec1 {
+        width: 100%;
+        height: 496px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+        margin-bottom: 67px;
+    }
+
+    h1 {
+        color: #142251;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 85%; 
+        letter-spacing: -1.6px;
+        margin: 20px 0;
+    }
+
+    .left_side p {
+        max-width: 200px;
+        color: var(--afb-4-c-4, #989EB1);
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: -0.42px;
+        /* margin-bottom: 67px; */
+    }
+
+    #btn1 {
+        display: none;
+    }
+
+    #btn2 {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .arr_down {
+        display: none;
+    }
+
+    .sec1_btn {
+        width: 100%;
+        height: 60px;
+        margin-top: -30px;
+    }
+
+    .sec1_btn p {
+        /* width: 100%; */
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 100%;
+        letter-spacing: -0.42px;
+    }
+
+    .sec1_btn img {
+        width: 21px;
+    }
+
+    .right_side {
+        position: relative;
+        width: 335px;
+    }
+
+    #pt1 {
+        width: 350px;
+        margin-top: -35px;
+        margin-left: -20px;
+        z-index: -10;
+    }
+    
+    #pt2 {
+        width: 250px;
+        top: 10px;
+        left: 50px;
+        z-index: -10;
+    }
+
+}

@@ -1,169 +1,263 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADRASTEIA</title>
-    <link rel="stylesheet" href="./css/fonts.css">
-    <link rel="stylesheet" href="./css/reset.css">
+    <title>Пермяков 221-324</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/header_adaptive.css">
+    <link rel="stylesheet" href="./css/sec1_adaptive.css">
+    <link rel="stylesheet" href="./css/sec2_adaptive.css">
 </head>
-
 <body>
-    <header>
-        <div class="container">
+    
+    <header id="id_header">
+        <div class="header_container">
+            <div class="logo">
+                <img src="./img/logo.svg" alt="">
+            </div>
             <nav>
-                <a class="header__logo" href="#"><img src="./img/logo.png" alt=""></a>
-                <div class="header__gamburger"><img src="./img/gamburger.png" alt=""></div>
+                <a href="#">Главный</a>
+                <a href="#">О нас</a>
+                <a href="#">Услуги</a>
+                <a href="#">Как мы работаем</a>
+                <a href="#">Клиенты</a>
+                <a href="#">Контакты</a>
             </nav>
+            <div class="burger">
+                <img src="./img/burger.svg" alt="">
+            </div>
+            <div class="header_btn_order">
+                <p>Оформить заявку</p>
+                <img src="./img/header_plus.svg" alt="">
+            </div>
         </div>
     </header>
 
-
+    <div class="content">
+        <div class="card">
+            <span class="loader"></span>
+            <div class="opaloader"></div>
+            <img src="./img/burger.svg" alt="картинка 11">
+        </div>
+    </div>
 
     <main>
-        <section class="banner">
-            <div class="container">
-                <div class="banner__title">
+        <div class="main_wrapper">
+            <section id="sec1">
+                <div class="left_side">
                     <h1>
                         Детективно-информационное <span>агентство</span>
                     </h1>
+                    <p>Владеешь информацией - владеешь миром</p>
+                    <a class="sec1_btn" id="btn1">
+                        <p>Оформить заявку</p>
+                        <img src="./img/subtract.svg" alt="">
+                    </a>
+                    <a href="#sec2" class="arr_down">
+                        <img src="./img/arrow-down.svg" alt="">
+                    </a>  
                 </div>
-                <div class="banner__subtitle">
-                    <p>Владеешь информацией - <br> владеешь миром</p>
+                <div class="right_side">
+                    <img id="pt1" src="./img/img_part1.svg" alt="">
+                    <img id="pt2" src="./img/img_part2.svg" alt="">
                 </div>
-                <div class="banner__img">
-                    <img src="./img/banner.png" alt="">
+                <a id="open_chat" href="">
+                    <img src="./img/viber_img.svg" alt="">
+                    <p>Открыть чат</p>
+                    <span>adrasteia@mail.com</span>  
+                </a>
+                <a class="sec1_btn" id="btn2">
+                    <p>Оформить заявку</p>
+                    <img src="./img/subtract.svg" alt="">
+                </a>
+            </section>
+
+            <section id="sec2">
+                <div class="heading">
+                    <div class="text_wrap">
+                        <h2>Услуги</h2>
+                        <p>Когда другие бессильны - мы делаем</p>
+                    </div>
+                    <div class="arrows">
+                        <div class="arr_left">
+                            <img src="./img/arr_left.svg" alt="">
+                        </div>
+                        <div class="arr_right">
+                            <img src="./img/arr_right.svg" alt="">
+                        </div>
+                    </div>
                 </div>
-                <button class="btn_light btn">
-                    <div class="btn__left">Оформить заявку</div>
-                    <div class="btn__right">+</div>
-                </button>
+
+                <div class="slider">
+                    <div class="slider_content">
+
+                        <div class="card">
+                            <div class="card_pic">
+                                <img src="./img/card_1_img.svg" alt="">
+                            </div>
+                            <h3>Работа <br>с информацией 1</h3>
+                            <p>- Поиск и проверка информации</p>
+                            <p>- Составление персонального досье</p>
+                            <p>- Работа с репутацией <br>(защита персональных данных)</p>
+                            <p>- Информация по номеру телефона</p>
+                        </div>
+
+                        <div class="card">
+                            <div class="card_pic">
+                                <img src="./img/card_1_img.svg" alt="">
+                            </div>
+                            <h3>Розыск</h3>
+                            <p>- Розыск должника/мошенника</p>
+                            <p>- Поиск пропавших людей</p>
+                            <p>- Поиск родственников</p>
+                            <p>- Поиск имущества</p>
+                        </div>
+
+                        <div class="card">
+                            <div class="card_pic">
+                                <img src="./img/card_1_img.svg" alt="">
+                            </div>
+                            <h3>Слежка <br>и наблюдение</h3>
+                            <p>- Наружное наблюдение</p>
+                            <p>- Контрнаблюдение</p>
+                            <p>- Проверка образа жизни ребенка</p>
+                        </div>
+
+                        <div class="card">
+                            <div class="card_pic">
+                                <img src="./img/card_1_img.svg" alt="">
+                            </div>
+                            <h3>Работа <br>с информацией</h3>
+                            <p>- Поиск и проверка информации</p>
+                            <p>- Составление персонального досье</p>
+                            <p>- Работа с репутацией <br>(защита персональных данных)</p>
+                            <p>- Информация по номеру телефона</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="sec3">
+                <div class="sec3_left">
+                    <h2>Как мы работаем</h2>
+                    <div class="sec3_card">
+                        <img src="./img/01.svg" alt="" class="sec3_number">
+                        <div class="ces3_card_wrapper">
+                            <img src="./img/sec3_arr_right.svg" alt="">
+                            <p>Разбираемся в ситуации</p>
+                        </div>
+                    </div>
+                    <div class="sec3_card">
+                        <img src="./img/02.svg" alt="" class="sec3_number">
+                        <div class="ces3_card_wrapper">
+                            <img src="./img/sec3_list_check.svg" alt="">
+                            <p>Составляем план действий</p>
+                        </div>
+                    </div>
+                    <div class="sec3_card">
+                        <img src="./img/03.svg" alt="" class="sec3_number">
+                        <div class="ces3_card_wrapper">
+                            <img src="./img/sec3_check.svg" alt="">
+                            <p>Предоставляем результат</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec3_right">
+                    <img id="sec3_cube1" src="./img/sec3_cube1.svg" alt="">
+                    <img id="sec3_cube2" src="./img/sec3_cube2.svg" alt="">
+                    <img id="sec3_cube3" src="./img/sec3_cube3.svg" alt="">
+                </div>
+            </section>
+        </div>
+
+        <section id="sec4">
+            <div class="sec4_content">
+                <div class="sec4_left">
+                    <h2>
+                        Наши клиенты
+                    </h2>
+                </div>
+                <div class="sec4_center">
+                    <div class="sec4_card">
+                        <div class="sec4_card_icon">
+                            <img src="./img/sec4_megaphone.svg" alt="">
+                        </div>
+                        <p>Политики</p>
+                    </div>
+                    <div class="sec4_card">
+                        <div class="sec4_card_icon">
+                            <img src="./img/sec4_case.svg" alt="">
+                        </div>
+                        <p>Бизнес</p>
+                    </div>
+                    <div class="sec4_card">
+                        <div class="sec4_card_icon">
+                            <img src="./img/sec4_favorite.svg" alt="">
+                        </div>
+                        <p>Селебрити</p>
+                    </div>
+                    <div class="sec4_card">
+                        <div class="sec4_card_icon">
+                            <img src="./img/sec4_user.svg" alt="">
+                        </div>
+                        <p>Частные лица</p>
+                    </div>
+                </div>
+                <div class="sec4_right">
+                    <p>Строго соблюдаем конфиденциальность и дорожим репутацией каждого клиента</p>
+                </div>
+                <img id="sec4_bg" src="./img/sec4_graphic.svg" alt="">
             </div>
         </section>
 
-        <section class="offers">
-            <div class="offers__wrapper">
-                <div class="container">
-                    <div class="offers__title">Услуги</div>
-                    <div class="offers__subtitle">Когда другие бессильны - мы делаем</div>
-                    <div class="offers__types-block">
-                        <ul class="offers__types">
-                            <li><button>Работа с информацией</button></li>
-                            <li><button>Розыск</button></li>
-                            <li><button>Слежка</button></li>
-                            <li><button>Уведомления</button></li>
-                            <li><button>Детектив</button></li>
-                        </ul>
+        <section id="sec5">
+            <div class="sec5_content">
+                <h2>Связаться с нами</h2>
+                <form action="#" method="get">
+                    <div class="form_col_1">
+                        <label for="name" id="label_name">Меня зовут <input id="name" type="text" placeholder="Караникола Евгений"> </label>
+                        <label for="mail">Мой email <input id="mail" type="mail" placeholder="example@gmail.com"> </label>
                     </div>
-                    <ul class="offers__carts">
-                        <li class="offers__cart">
-                            <div class="offers__cart-img"><img src="./img/cart__image.png" alt=""></div>
-                            <div class="offers__cart-title"> Работа <br> с информацией</div>
-                            <ul class="offers__cart-description">
-                                <li>Поиск и проверка информации</li>
-                                <li>Составление персонального досье</li>
-                                <li>Работа с репутацией <br>(защита персональных данных)</li>
-                                <li>Информация по номеру телефона</li>
-                            </ul>
-                            <button class="btn_dark btn">
-                                <div class="btn__left">Оформить заявку</div>
-                                <div class="btn__right">+</div>
+                    <div class="form_col_2">
+                        <label for="tel">Мой номер <input id="tel" type="tel" placeholder="+7 (___) ___ - ____"> </label>
+                        <div class="form_send">
+                            <div class="agreement">
+                                <img src="./img/sec5_circle_check.svg" alt="">
+                                <p>Согласие на обработку персональных данных</p>
+                            </div>
+                            <button type="submit" class="btn_send">
+                                <a href="#">Оформить заявку</a>
+                                <img src="./img/subtract.svg" alt="">
                             </button>
-
-                        </li>
-                        <li class="offers__cart"></li>
-                        <li class="offers__cart"></li>
-                        <li class="offers__cart"></li>
-                        <li class="offers__cart"></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section class="how">
-            <div class="container">
-                <div class="how__title offers__title">Как мы работаем</div>
-                <div class="how__items">
-                    <ul>
-                        <li class="how__item">
-                            <div class="how__item-content">
-                                <div class="how__item-image"><img src="./img/how/1.png" alt=""></div>
-                                <div class="how__item-text">Разбираемся в ситуации</div>
-                            </div>
-                            <div class="how__item-index">01</div>
-                        </li>
-                        <li class="how__item">
-                            <div class="how__item-content">
-                                <div class="how__item-image"><img src="./img/how/2.png" alt=""></div>
-                                <div class="how__item-text">Составяем <br>план действий</div>
-                            </div>
-                            <div class="how__item-index">02</div>
-                        </li>
-                        <li class="how__item">
-                            <div class="how__item-content">
-                                <div class="how__item-image"><img src="./img/how/3.png" alt=""></div>
-                                <div class="how__item-text">Предоставляем результат</div>
-                            </div>
-                            <div class="how__item-index">03</div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section class="clients">
-            <div class="clients__wrapper">
-                <div class="container">
-
-                    <div class="clients__title offers__title">Наши клиенты</div>
-                    <div class="clients__subtitle offers__subtitle">Строго соблюдаем конфиденциальность и дорожим
-                        репутацией каждого клиента</div>
-                    <div class="clients__items">
-                        <ul>
-                            <li>
-                                <a href="#" class="client__item">
-                                    <div class="client__item-img"><img src="./img/icons/megafon.png" alt=""></div>
-                                    <div class="client__item-text">Политики</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="client__item">
-                                    <div class="client__item-img"><img src="./img/icons/case.png" alt=""></div>
-                                    <div class="client__item-text">Бизнес</div>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="client__item">
-                                    <div class="client__item-img"><img src="./img/icons/star.png" alt=""></div>
-                                    <div class="client__item-text">Селебрити</div>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="client__item">
-                                    <div class="client__item-img"><img src="./img/icons/person.png" alt=""></div>
-                                    <div class="client__item-text">Частные лица</div>
-                                </a>
-                            </li>
-
-                        </ul>
-
+                        </div>
                     </div>
-                </div>
+                </form>
+                <a href="#id_header" id="arr_right">
+                    <img src="./img/sec5_arr_right.svg" alt="">
+                </a>
             </div>
         </section>
-
-
     </main>
-
-
-
     <footer>
-
+        <div class="footer_wrapper">
+            <div class="socials">
+                <a href="" id="so_viber">
+                    <img src="./img/footer_viber.svg" alt="">
+                    <p>whatsapp</p>
+                </a>
+                <a href="" id="so_tg">
+                    <img src="./img/footer_tg.svg" alt="">
+                    <p>whatsapp</p>
+                </a>
+                <a href="" id="so_mail">Adrasteia@mail.com</a>
+            </div>
+            <a href="" class="policy">Политика конфиденциальности</a>
+            <a href="" class="agency">Дизайн и разработка - Karanikola</a>
+            <p>© 2022</p>
+        </div>
     </footer>
 </body>
-
 </html>
